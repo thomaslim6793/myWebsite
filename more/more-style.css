@@ -1,4 +1,4 @@
-    * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -43,59 +43,17 @@
     margin-right: 20px;
     }
 
+
     .content {
-    background-color: rgb(170, 188, 142);
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 50px;
-    /* border-top: 2px double #333;  */ 
+        background-color: rgb(170, 188, 142);
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        flex-direction: column;
+        padding: 100px;
+        /* border-top: 2px double #333;  */ 
     }
 
-    .content-intro {
-    display: flex;
-    gap: 40px;
-    width: 60em;
-
+    .content li{
+        padding: 10px;
     }
-
-    .content-intro img {
-    height: 200px;
-    float: right;
-    }
-
-    .content-intro {
-        width: 60em;
-    }
-    
-    .main-text {
-        font-size: 32px;
-        font-weight: 900;
-        color: #F9FAF8;
-        margin-bottom: 20px;
-        }
-    
-    .secondary-text {
-        font-size: 18px;
-        color: #E5E7EB;
-    }
-
-    .content-skillset {
-        width: 60em;
-        margin-top: 50px;
-        color: #F9FAF8;
-    }
-   
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        gap: 10px 20px;
-    }
-    
-    .grid-container > div {
-        padding: 5px;
-    }
-    
-
-
